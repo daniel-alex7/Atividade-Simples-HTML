@@ -1,0 +1,19 @@
+MySql
+
+Usuário: root
+Senha: root
+
+Oracle
+
+Usuário: sys
+Senha: System@2025
+
+
+Configurações SQL Developer
+
+Direcionar a pasta do java para iniciar o sqldeveloper:
+C:\Program Files\Java\jdk-21
+
+Nova conexão atribuir SYSDBA
+
+SID: orcl
