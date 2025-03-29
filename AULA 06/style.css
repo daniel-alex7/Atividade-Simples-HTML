@@ -4,5 +4,25 @@ body{
 
 h1{
     color: aliceblue;
-    background-color: rgba(5, 83, 226, 0.712);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+p{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    line-height: 1.6; /*Espaçamento entre linhas*/
+    text-align: justify; /*center, right e left também são usados*/
+    text-transform:lowercase; /*Coloca todas as letras em minusculas ou maiusculas(uppercase)*/
+}
+
+span{
+    text-decoration: underline;
+    background-color: darkblue;
+    font-style: italic;
 }
