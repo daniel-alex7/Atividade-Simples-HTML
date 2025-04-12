@@ -1,32 +1,24 @@
 body{
-    background-color: rgb(166, 240, 240);
-    color: rgb(25, 125, 212);
-}
+    background-color: rgb(4, 57, 82);
+    color: rgb(25, 125, 212);}
 
 nav{
     background-color: rgb(71, 145, 206);
-    padding: 0px 13px;
-}
+    padding: 0px 13px;}
 
-ul{
-    list-style-type: none;
-}
+ul{list-style-type: none;}
 
-li{
-    display: inline;   
-}
+li{display: inline;}
 
 a{
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(252, 252, 252);
-    padding: 0px 10px;
-}
+    padding: 0px 10px;}
 
 a:hover{
     color: rgb(1, 35, 54);
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 .secdestaque{
     width: 100%;
@@ -38,16 +30,38 @@ a:hover{
     /** background-size: 100% 100%; **/
     background-position: center;
     background-attachment: fixed; /** imagem fica fixa duarante rolagem **/
-}
+    border-radius:7px;}
 
 .centro{
     width: 50%;
-    background: rgb(131, 214, 203);
+    background: rgb(10, 109, 155);
     margin: 0 auto;
     display: flex;
+
 }
 
 .coluna{
     float: left; /** para colocar em alguns blocos em colunas: float: left **/
+    width: 50%;
+    margin: 20px;
+    padding-bottom: 2px ;
+    
+
+}
+
+/** exemplo de p
+
+section div p{
+    background: #1a3581;
+}
+
+**/
+
+.centro .coluna p{
+    color: rgb(4, 57, 82);
+}
+
+h1, h2, h3{
+    color: rgb(197, 253, 255);
 }
 
