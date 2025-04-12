@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(166, 240, 240);
+    color: rgb(25, 125, 212);
+}
+
+nav{
+    background-color: rgb(71, 145, 206);
+    padding: 0px 13px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;   
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(252, 252, 252);
+    padding: 0px 10px;
+}
+
+a:hover{
+    color: rgb(1, 35, 54);
+    text-decoration: none;
+}
+
+.secdestaque{
+    width: 100%;
+    height: 400px;
+    background: url(./imagens/paisagem5.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    /** background-size: 100% 100%; **/
+    background-position: center;
+    background-attachment: fixed; /** imagem fica fixa duarante rolagem **/
+}
+
+.centro{
+    width: 50%;
+    background: rgb(131, 214, 203);
+    margin: 0 auto;
+    display: flex;
+}
+
+.coluna{
+    float: left; /** para colocar em alguns blocos em colunas: float: left **/
+}
+
