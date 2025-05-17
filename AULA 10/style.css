@@ -1,0 +1,18 @@
+div{ 
+  width: 50px;
+  height: 50px;
+  background-color: rgb(140, 207, 233);
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  
+}
+
+@keyframes example {
+  0%   {background-color:rgb(140, 207, 233); left:0px; top:0px;color:black}
+  25%  {background-color:rgb(80, 219, 243); left:200px; top:0px;color:black}
+  50%  {background-color:rgb(5, 136, 136); left:200px; top:200px;color:rgb(253, 253, 253)}
+  75%  {background-color:rgb(5, 51, 95); left:0px; top:200px;color:rgb(253, 253, 253)}
+  100% {background-color:rgb(5, 3, 105); left:0px; top:0px;color:rgb(253, 253, 253)}
+}
