@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    gap: 18px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    background: rgb(81, 137, 173);
+    width: 200px;
+    height: 200px;
+}
